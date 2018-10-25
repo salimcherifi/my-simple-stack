@@ -41,4 +41,11 @@ public class Stack implements SimpleStack{
             return -1;
         }
     }
+    public String toString(){
+        StringBuilder s = new StringBuilder();
+        for (Integer aPile : pile) {
+            s.append(aPile).append(" ");
+        }
+        return s.toString();
+    }
 }
