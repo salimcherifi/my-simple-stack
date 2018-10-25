@@ -41,6 +41,7 @@ public class Stack implements SimpleStack{
             return -1;
         }
     }
+    @Override
     public String toString(){
         StringBuilder s = new StringBuilder();
         for (Integer aPile : pile) {

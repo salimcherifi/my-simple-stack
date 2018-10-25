@@ -37,7 +37,7 @@ public class StackTest {
     @Test
     public void peek() {
         Stack s = new Stack();
-        s.push(3);
+        s.push(3);  
         s.push(5);
         s.push(8);
         s.push(6);
@@ -61,5 +61,12 @@ public class StackTest {
         assertFalse(s.isEmpty());
         s.pop();
         assertEquals(s.pop(),-1);
+    }
+
+    @Test
+    public void testString() {
+        Stack s = new Stack();
+        s.push(5);
+        assertEquals("5 ", s.toString());
     }
 }
