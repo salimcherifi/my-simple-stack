@@ -8,7 +8,7 @@ public class Stack implements SimpleStack{
     private int size;
     private ArrayList<Integer> pile;
 
-    public Stack() {
+    Stack() {
         this.size = 0;
         this.pile = new ArrayList<Integer>(size);
     }
